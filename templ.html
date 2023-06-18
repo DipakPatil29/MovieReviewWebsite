@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Review Website</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    
+    /* Navbar styles */
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    
+    .main-nav {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .main-nav li {
+      margin-right: 10px;
+    }
+    
+    .main-nav li:last-child {
+      margin-right: 0;
+    }
+    
+    .main-nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown .dropdown-toggle {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 3px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .dropdown .dropdown-toggle:hover {
+      background-color: #555;
+    }
+    
+    .dropdown .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #333;
+      padding: 10px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    
+    .dropdown-menu li {
+      margin-bottom: 5px;
+    }
+    
+    .dropdown-menu li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+    
+    .dropdown-menu li a:hover {
+      background-color: #555;
+    }
+    
+    /* Main content styles */
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .movie-review {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .movie-review h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .movie-review p {
+      margin-bottom: 5px;
+    }
+    
+    /* Comedy genre styles */
+    .comedy-genre {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 3px;
+    }
+    
+    .comedy-genre h2 {
+      margin-bottom: 10px;
+    }
+    
+    /* Footer styles */
+    .footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul class="main-nav">
+      <li><a href="/">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">Genres</a>
+        <ul class="dropdown-menu">
+          <li><a href="/reviews/action">Action</a></li>
+          <li><a href="/reviews/adventure">Adventure</a></li>
+          <li class="comedy-genre"><a href="/reviews/comedy">Comedy</a></li>
+          <li><a href="/reviews/drama">Drama</a></li>
+          <li><a href="/reviews/fantasy">Fantasy</a></li>
+          <li><a href="/reviews/horror">Horror</a></li>
+          <li><a href="/reviews/sci-fi">Sci-Fi</a></li>
+          <li><a href="/reviews/thriller">Thriller</a></li>
+          <li><a href="/reviews/romance">Romance</a></li>
+          <li><a href="/reviews/anime">Anime</a></li>
+        </ul>
+      </li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main content -->
+  <div class="container">
+    <h1>Welcome to Movie Review Website</h1>
+    
+    <div class="comedy-genre">
+      <h2>Comedy Movies</h2>
+      <div class="movie-review">
+        <h3>Movie Title 1</h3>
+        <p>Rating: 7.5/10</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat commodo nibh, at bibendum lacus pulvinar ac.</p>
+      </div>
+      
+      <div class="movie-review">
+        <h3>Movie Title 2</h3>
+        <p>Rating: 8/10</p>
+        <p>Nullam at commodo tortor, eu eleifend neque. Morbi congue justo a tellus eleifend venenatis.</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="lister-item mode-advanced">
+      <div class="lister-top-right">
+  <div class="ribbonize" data-tconst="tt5348176" data-caller="filmosearch" style="position: relative;"><div class="wl-ribbon standalone retina not-inWL" title="Click to add to watchlist"></div></div>
+      </div>
+      <div class="lister-item-image float-left">
+
+
+<a href="/title/tt5348176/?ref_=adv_li_i"> <img alt="Barry" class="loadlate" data-tconst="tt5348176" height="98" src="https://m.media-amazon.com/images/M/MV5BNDY5NzNlMWItMmFiYy00NjU1LWFhYTAtOWNhYjI2NDViNTZmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg" width="67">
+</a>        </div>
+      <div class="lister-item-content">
+<h3 class="lister-item-header">
+      <span class="lister-item-index unbold text-primary">3.</span>
+  
+  <a href="/title/tt5348176/?ref_=adv_li_tt">Barry</a>
+  <span class="lister-item-year text-muted unbold">(2018–2023)</span>
+</h3>
+  <p class="text-muted ">
+          <span class="certificate">TV-MA</span>
+               <span class="ghost">|</span> 
+              <span class="runtime">30 min</span>
+               <span class="ghost">|</span> 
+          <span class="genre">
+Action, Comedy, Crime            </span>
+  </p>
+  <div class="ratings-bar">
+  <div class="inline-block ratings-imdb-rating" name="ir" data-value="8.4">
+      <span class="global-sprite rating-star imdb-rating"></span>
+      <strong>8.4</strong>
+  </div>
+          <div class="inline-block ratings-user-rating">
+              <span class="userRatingValue" id="urv_tt5348176" data-tconst="tt5348176">
+                  <span class="global-sprite rating-star no-rating"></span>
+                  <span name="ur" data-value="0" class="rate" data-no-rating="Rate this">Rate this</span>
+              </span>
+  <div class="starBarWidget" id="sb_tt5348176">
+<div class="rating rating-list" data-starbar-class="rating-list" data-csrf-token="" data-user="" id="tt5348176|imdb|8.4|8.4|adv_li_tt||advsearch|title" data-ga-identifier="" title="Users rated this 8.4/10 (103,039 votes) - click stars to rate" itemtype="http://schema.org/AggregateRating" itemscope="" itemprop="aggregateRating">
+<meta itemprop="ratingValue" content="8.4">
+<meta itemprop="bestRating" content="10">
+<meta itemprop="ratingCount" content="103039">
+<span class="rating-bg">&nbsp;</span>
+<span class="rating-imdb " style="width: 117.6px">&nbsp;</span>
+<span class="rating-stars">
+    <a rel="nofollow" title="Register or login to rate this title"><span>1</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>2</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>3</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>4</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>5</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>6</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>7</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>8</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>9</span></a>
+    <a rel="nofollow" title="Register or login to rate this title"><span>10</span></a>
+</span>
+<span class="rating-rating "><span class="value">8.4</span><span class="grey">/</span><span class="grey">10</span></span>
+<span class="rating-cancel "><a title="Delete" rel="nofollow"><span>X</span></a></span>
+&nbsp;</div>
+  </div>
+          </div>
+  </div>
+<p class="text-muted">
+A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.</p>
+  <p class="">
+          
+  Stars:
+<a href="/name/nm0352778/?ref_=adv_li_st_0">Bill Hader</a>, 
+<a href="/name/nm0740535/?ref_=adv_li_st_1">Stephen Root</a>, 
+<a href="/name/nm3057022/?ref_=adv_li_st_2">Sarah Goldberg</a>, 
+<a href="/name/nm2810593/?ref_=adv_li_st_3">Anthony Carrigan</a>
+  </p>
+      <p class="sort-num_votes-visible">
+              <span class="text-muted">Votes:</span>
+              <span name="nv" data-value="103039">103,039</span>
+          
+      </p>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+    
+    <!-- Add more movie listings for other genres here -->
+    
+  </div>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2023 Movie Review Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
